@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial scale=1.10">
+        <title>Swensen's menu.html</title>
+        <style>
+
+            body {
+                font-family: sans-serif Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                color: crimson;
+                background-color: #fff4f8;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                font-size: 36px;
+                font-weight: bold;
+                color: #d68834;
+                line-height: 1.15;
+                letter-spacing: -0.03em;
+            }
+
+            h2 {
+                color: red;
+                font-size: 32px;
+                font-weight: bold;
+                margin-top: 1.5rem;
+                margin-bottom: 0.75;
+                border-left: 4px solid #3498db;
+            }
+
+            h1 + p {
+                color: #8a2bb2;
+                font-weight: bold;
+                background-color: #ffe3f1;
+                border-radius: 10px;
+            }
+            .Swensens-shop-description::first-letter {
+                font-size: 36px;
+                font-weight: bold;
+                color: #ff1493;
+            }
+            .menu-box {
+                border-radius: 15px;
+                border: 3px solid #ff69b4;
+                width: 420px;
+                margin: 20px auto;
+                padding: 20px;
+            }
+            ul {
+                padding: 0;
+            }
+            ul > li {
+                list-style-type: none;
+                background-color: #fff0f5;
+                color: #5c2a4a;
+                font-weight: bold;
+                font-size: 18px;
+                margin: 10px;
+                padding: 12px;
+                border-radius: 10px;
+                border: 2px solid #ffb6c1;
+            }
+            ul > li::nth-child(3) {
+                background-color: #fff3cd;
+                color: #b85c00;
+                border: 3px solid #ffa500;
+            }
+            ul > li::hover {
+                background: #ff69b4;
+                color: white;
+                cursor: pointer;
+                transform: scale(1.05);
+            }
+            button {
+                background-color: #d63384;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                padding: 12px 24px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            button:hover {
+                background-color: #8a2be2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Swensens shop menu</h1>
+        <p>Welcome to Swensens!</p>
+        <p class="Swensens-shop-description">
+            We serve colourful, creamy and delicious ice cream flavours!
+        </p>
+        <div class="menu-box">
+            <h2>Lets look at todays flavours!</h2>
+            <ul>
+                <Li>Vanilla</Li>
+                <li>Macadamia</li>
+                <li>Lemon sorbet</li>
+                <Li>Mango sorbet</Li>
+                <li>Lime sorbet</li>
+                <li>Rocky road</li>
+                <li>Chewy chocolate</li>
+                <li>Banana stroba</li>
+                <li>Cookies and cream - Todays special!</li>
+                <li>Bubble gum</li>
+            </ul>
+
+            <table border="3">
+                <tr>
+                    <th>10:00</th>
+                    <th>11:00</th>
+                    <th>12:00</th>
+                    <th>13:00</th>
+                    <th>14:00</th>
+                    <th>15:00</th>
+                    <th>16:00</th>
+                    <th>17:00</th>
+                </tr>
+                <tr>
+                    <td>Open</td>
+                    <td>Open</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                    <td>Open</td>
+                    <td>Open</td>
+                    <td>Close</td>
+                    <td>Close</td>
+                </tr>
+            </table>
+
+            <button>Order now!</button>
+        </div>
+    </body>
+</html>
